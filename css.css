@@ -1,0 +1,29 @@
+html,body,div,h1,h2,h3,h4,h5,h6,p,ol,ul,li,img,form,input,label,select,textarea,table,th,tr,td,thead,tbody,tfoot,blockquote,iframe,hr,center{margin:0;padding:0;outline:0;word-wrap:break-word}
+body{background:url(bg.jpg);width:100%;background-size: 100%;background-attachment: fixed;}
+ @font-face{
+    font-family:'Open Sans';
+    src:url("font/OpenSans.eot");
+    src:url('font/OpenSans.eot?#iefix') format('embedded-opentype'),
+    local("..."),url("font/OpenSans.ttf")
+  }
+
+/* Card do topo */
+#card{width: 100%;overflow: hidden;background-color: #fff}
+h1{display: block;overflow: hidden;width: 260px;height: 300px;line-height: 9999px;margin: 0 auto}
+.content{width: 80%;overflow: hidden;margin: 0 auto; padding: 100px 0}
+span.contatos{margin: 0 auto;width:100%;padding: 40px 0;float: left;}
+a.dribbble, a.twitter, a.email{font-size: 15px; font-family: 'Open Sans', sans-serif; width: 90px; display: inline-block; text-decoration: none}
+a.dribbble:hover, a.twitter:hover, a.email:hover{text-decoration: underline}
+a.dribbble {color: #FF7373}
+a.twitter {color: #5EA7FB}
+a.email {color: #6C6E7D}
+h2{font-size: 21px; color: #9797A5; font-family: 'Open Sans', sans-serif; width: 100%; display: block;text-align: center;}
+
+/* Muzzy 2 */
+#muzzy2 {background-color: #FFD000}
+
+/* Density */
+#density {background-color: #FF2851}
+
+/* Cifra Club */
+#cifraclub {background-color: #f70}
